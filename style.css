@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body {
+  overflow-x: hidden;
+}
 .navbar{
     width: 100%;
     height: 100px;
@@ -193,6 +196,7 @@ ul{
     top: 32rem;
     right: -28rem;
     font-size: 59px;
+    width: 50%;
 }
 .text4{
     position: relative;
@@ -269,10 +273,9 @@ ul{
 }
 footer{
   position: relative;
-  top: 64rem;
-  left: 3rem;
+  top: 15rem;
   background-color: #4BBDD0;
-  width: 1440px;
+  width: 100%;
   height: 378px;
   color: white;
   text-decoration: none;
@@ -387,4 +390,21 @@ footer{
   top: 9rem;
   right: -26rem;
   font-size: 27px;
+  width: 50%;
+}
+
+.font-50-400 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.font-32-300 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.container004 {
+  position: relative;
+  top: 5rem;
+  margin: 2rem;
 }
