@@ -408,3 +408,24 @@ footer{
   top: 5rem;
   margin: 2rem;
 }
+
+.sub-container001 {
+  position: relative;
+  top: -5rem;
+  left: 41rem;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.sub-container002 {
+  position: relative;
+  top: -15rem;
+  left: 71rem;
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.align-at-center {
+  display: flex;
+  align-items: center;
+}
