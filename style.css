@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    /* display: flex; */
+    margin: 2rem 0;
+}
+
+.menubar-items {
+    display: inline;
+    margin:50px;
+    text-decoration: underline;
+}
+.logo-position{
+    position: relative;
+    right: 54rem;
+    float: left;
+}
+.center{
+    position: relative;
+    top: 9rem;
+    /* position: absolute; */
+    /* top: 50%; */
+    left: 32rem;
+    width: 31rem;
+    /* transform: translate(-50%, -50%); */
+    /* width: 29vw; */
+    background: white;
+    border-radius: 10px;
+    border-style: ridge;
+    padding: 5rem 2rem;
+}
+  
+  .center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+  }
+  
+  .center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  
+  form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+  }
+  
+  .txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+  }
+  
+  .txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+  }
+  
+  .txt_field input:focus ~ label,
+  .txt_field input:valid ~ label{
+    top: -5px;
+    color: #2691d9;
+  }
+  
+  .txt_field input:focus ~ span::before,
+  .txt_field input:Valid ~ span::before{
+    width: 100%;
+  }
+  
+  .pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+  }
+  
+  .pass:hover{
+    text-decoration: underline;
+  }
+  
+  input[type="Submit"]{
+    width: 50%;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    background-image: linear-gradient(to left, #439AFF, #2110E1)
+  
+  }
+  
+  input[type="Submit"]:hover{
+    background: #2691d9;
+    color: #e9f4fb;
+    transition: .5s;
+  }
+  
+  .signup_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+  }
+  
+  .signup_link a{
+    color: #2691d9;
+    text-decoration: none;
+  }
+  
+  .signup_link a:hover{
+    text-decoration: underline;
+  }
+  
+  .HomeAbout{
+    width: 100vw;
+    height: 25vh;
+  }
+  .text{
+    text-align: center;
+    position: relative;
+    top: 11rem;
+    right: -5rem;
+    font-size: 27px;
+  }
+  .furniture{
+    position: relative;
+    top: 22rem;
+    right: -14rem;
+    font-size: 102px;
+    width: 34rem;
+  }
+  .design{
+    position: relative;
+    top: 23rem;
+    right: -14rem;
+    font-size: 42px;
+    color: #0075FF;
+}
+.photo{
+    position: relative;
+    top: 24rem;
+    right: -13rem;
+    height: auto;
+    width: 300px;
+}
+.photo2{
+    position: relative;
+    top: 24rem;
+    right: -16rem;
+    height: auto;
+    width: 400px;
+}
+.text2{
+    position: relative;
+    top: 26rem;
+    right: -26rem;
+    font-size: 27px;
+}
+.text3{
+    position: relative;
+    top: 32rem;
+    right: -28rem;
+    font-size: 59px;
+}
+.text4{
+    position: relative;
+    top: 33rem;
+    right: -28rem;
+    font-size: 59px;
+    text-decoration: underline 1px;
+}
+.box1{
+    height: 335px;
+    width: 1440px;
+    background-color: #9B9B9B;
+    position: relative;
+    top: 33rem;
+}
+.box2{
+    height: 335px;
+    width: 1440px;
+    background-color: #9B9B9B;
+    position: relative;
+    top: 30rem;
+}
+.photo3{
+    border-radius: 50%;
+    position: relative;
+    top: 2rem;
+    right: -10rem;
+}
+.photo4{
+    border-radius: 50%;
+    position: relative;
+    top: 2rem;
+    right: -54rem;
+}
+.name1{
+    font-family: cursive;
+    position: relative;
+    top: -14rem;
+    right: -31rem;
+    font-size: 54px;
+}
+.content2{
+    position: relative;
+    top: -13rem;
+    right: -31rem;
+    font-size: xx-large;
+}
+.photo5{
+  position: relative;
+    top: 36rem;
+    right: -10rem;
+}
+.name2{
+  position: relative;
+  top: 17rem;
+  right: -44rem;
+  font-size: 43px;
+}
+.content4{
+  top: 17rem;
+  position: relative;
+  right: -18rem;
+}
+.photo6{
+  position: relative;
+  top: 47rem;
+  right: -68rem;
+}
+.content5{
+  position: relative;
+  top: 42rem;
+  right: -46rem;
+}
+footer{
+  position: relative;
+  top: 64rem;
+  left: 3rem;
+  background-color: #4BBDD0;
+  width: 1440px;
+  height: 378px;
+  color: white;
+  text-decoration: none;
+}
+.text6{
+  position: relative;
+  top: 18rem;
+  left: 43rem;
+  width: 30rem;
+  font-size: 19px;
+}
+.name3{
+  position: relative;
+  top: 17rem;
+  left: 43rem;
+  font-size: 43px;
+}
+.name4{
+    position: relative;
+    top: -31rem;
+    left: -34rem;
+    font-size: 43px;
+}
+.text7{
+  position: relative;
+  top: -18rem;
+  left: -34rem;
+  width: 30rem;
+  font-size: 19px;
+}
+
+.text001 {
+
+}
+
+.ptext001 {
+  position: relative;
+  top: 18rem;
+  left: 8rem;
+  width: 30rem;
+  font-size: 19px;
+}
+
+.photo001 {
+
+}
+
+.name001 {
+  position: relative;
+  top: 17rem;
+  left: 8rem;
+  font-size: 43px;
+}
+
+.photoImg001 {
+  position: relative;
+  top: 36rem;
+  left: 43rem;
+}
+
+.blue-background-text {
+  background-color: #4BBDD0;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.container001 {
+  position: relative;
+  top: 27rem;
+  width: 50%;
+}
+
+.bold-heading001 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.margin-2 {
+  margin: 1rem;
+}
+
+.content-fade-color001 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #00000075;
+}
